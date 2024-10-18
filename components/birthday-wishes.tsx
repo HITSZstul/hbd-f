@@ -59,8 +59,8 @@ export function BirthdayWishesComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-200 to-blue-200 flex items-center justify-center p-4">
       <audio id="bgMusic" loop>
-        <source src="https://example.com/path/to/your/music.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
+        {/* <source src="https://example.com/path/to/your/music.mp3" type="audio/mpeg" /> */}
+        {/* Your browser does not support the audio element. */}
       </audio>
       <Button
         onClick={toggleMusic}
